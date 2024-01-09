@@ -1,0 +1,66 @@
+body{
+  background-color: hsl(47, 88%, 63%);
+  font-size: 16px;
+  font-family: 'Figtree', sans-serif;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container{
+  padding: 15px;
+  box-shadow: 5px 5px rgb(0,0,0);
+  border-radius: 20px;
+  border: 1px solid hsl(0, 0%, 50%);
+  background-color: hsl(0, 0%, 100%);
+  /* margin-top: auto; */
+}
+
+.illust{
+  border-radius: 10px;
+}
+
+.learning{
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px 10px;
+  font-weight: 800;
+  margin: 12px 0;
+  border-radius: 5px;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+}
+
+.footer img{
+  width: 25px;
+}
+
+
+.attribution {
+  font-size: 11px;
+  margin-top: 40px;
+  /* margin-bottom: auto; */
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+p{
+  color: hsl(0, 0%, 50%);
+}
