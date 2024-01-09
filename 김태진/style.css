@@ -1,0 +1,76 @@
+* {
+  margin: initial;
+  padding: initial;
+  box-sizing: border-box;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #f4d04e;
+  border-radius: 4px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #f4d04e;
+  font-family: "Figtree", sans-serif;
+}
+
+.card {
+  background-color: #fff;
+  width: 384px;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--Black, #111);
+  box-shadow: 8px 8px 0px 0px #000;
+}
+
+.card-contents {
+  padding: 24px 0;
+}
+
+.card-subTitle {
+  margin: 12px 0 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 12px 0;
+}
+
+.card-title:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+.card-description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #7f7f7f;
+}
+
+.card-footer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.card-footer-cover {
+  width: 32px;
+}
+
+.card-footer-author {
+  font-size: 14px;
+  font-weight: 800;
+}
