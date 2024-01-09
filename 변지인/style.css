@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.background{
+  width: 1440px; 
+  /* 너비는 퍼센트로 */
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 화면중앙정렬 : display와 align-items과 justify-content는 함께 */
+}
+
+.box{
+  width: 384px;
+  height: 522px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 8px 8px;
+  padding: 24px;
+  margin: auto;
+}
+
+.main_img{
+  width: 336px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+button{
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 600;
+  border: none;
+  border-radius: 0.3em;
+  padding: 4px, 12px, 4px, 12px;
+}
+
+.date{
+  font-size: 14px;
+  line-height: 21px;
+}
+h2{
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+h2:hover{
+  color: hsl(47, 88%, 63%);
+}
+.text{
+  color: hsl(0, 0%, 50%);
+}
+
+footer{
+  display: flex;
+  align-items: center;
+}
+.small_img{
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.name{
+  font-weight: 600;
+  font-size: 14px;
+}
